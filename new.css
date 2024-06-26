@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+}
+    .login:hover{
+        transform: rotate(50deg);
+    }
+    .login{
+        position: absolute;
+    top: 200px;
+    
+    
+    left: 200px;
+    }
+    .lo{
+       
+    
+     height: 100px;
+     width: 100px;
+     border: 200px solid;
+     border-radius: 50%;
+     
+     
+     position: absolute;
+     top: 500px;
+     left: 80px;
+     border-top: 20px solid rebeccapurple;
+     border-left: 20px solid blue;
+     border-right: 20px solid red;
+     border-bottom: 20px solid purple;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     padding top: 12px;
+     
+    
+     
+    
+     
+    }
+.lo:hover{
+    transform: rotate(360deg);
+   transition-duration:3s;
+   transition-delay:0.1s; 
+transition-timing-function:linear; 
+}
+.l{
+
+    
+position: absolute;
+top: 100px;
+left: 700px;
+
+justify-content: center;
+align-items: center;
+text-align: center;
+padding top: 12px;
+font-size: 40px;
+width: 200px;
+border: 2px solid black;
+height: 30px;
+
+
+  
+    
+    height: 50px;
+    
+    
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+
+    
+}
+
+
+
+
+
+
+
+
+.l:hover{
+   
+transition-timing-function: linear;
+height: 30px
+width: 100px;
+transition-delay 0.1s;
+transition-duration 3s;
+background-color: red
+
+
+
+}

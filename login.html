@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+<style>
+*{
+    margin: 0px;
+}
+.outer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    }
+    .first{
+        height: 100vh;
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .second{
+        height: 100vh;
+        width: 40vw;
+        background-color: rgb(17, 150, 100);
+    }
+.firm {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+input[type=email], input[type=password]
+{
+    height: 34px;
+    width: 300px;
+}
+</style>
+</head>
+<div class="outer">
+<div class="first">
+   <div class = "content">
+    <h1> Sign into diprella</h1>
+    <div class="icon">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-google-plus-g"></i>
+        <i class="fa-brands fa-linkedin"></i>
+
+    </div>
+    <div class="optional">
+       Or use your Email Account 
+    </div>
+
+   </div>
+</div>
+<div class="firm">
+  <form>
+    <input type="email">
+    <input type="password">
+    <input type ="button" value="Forget your password">
+</div>
+<div class="btn">
+    <input type="submit" value="sign in">
+</div>
+  </form>  
+
+<div class="second">
+    
+</div>    
+</div>
+<body>

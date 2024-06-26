@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+}
+.ok{
+    height: 60px;
+    width: 100%;
+    background-color: red;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+    animation: move 5s linear 1s infinite ;
+    
+
+}
+@keyframes move {
+    from {
+      background-color: red;
+
+    }
+    to{
+background-color: aqua;
+
+    }
+    

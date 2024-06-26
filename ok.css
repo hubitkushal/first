@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+}
+.olo{
+    height: 100px;
+    width: 120px;
+    background-color: red;
+    color: black;
+}
+@media(min-width: 200px) and (max-width: 1000px)
+{
+    .olo{
+        background-color: yellow;
+    }
+}

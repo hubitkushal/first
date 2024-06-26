@@ -1,0 +1,28 @@
+*{
+    margin;0px
+}
+.navi{
+    height: 60px;
+    width: 100%;
+background-color: black;
+color: white;
+display: flex;
+justify-content: center;
+gap: 60%;
+align-items: center;
+}
+.contact{
+    display: flex;
+    gap: 20px;
+    }
+    .icon{
+        display: flex;
+        gap: 15px;
+    }
+    i{
+        background-color: gray;
+        padding: 4px;
+        font-size: 12px;
+        border-radius: 15%;
+    }
+    
